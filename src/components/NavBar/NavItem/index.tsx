@@ -12,7 +12,7 @@ export default function NavItem(props: NavItemProps) {
     } = props
     return (
         <Link 
-            className={`px-5 py-2.5 mx-1 lg:px-1 rounded-full font-medium text-sm`} 
+            className={`px-5 py-2 mx-1 lg:px-1 rounded-full font-medium text-xs`} 
             href={path}>
             {label}
         </Link>

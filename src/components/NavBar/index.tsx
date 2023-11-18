@@ -5,8 +5,8 @@ import NavItem from "./NavItem"
 export default function Navbar(props: any){
     
     return(
-        <header className="w-full fixed pl-4 pr-3 py-4 flex items-center justify-center bg-light-gray/70 backdrop-blur-md border-black/10 border-b-[1px]">
-            <div className="flex justify-between w-full max-w-7xl">
+        <header className="w-full fixed pl-4 pr-3 py-3 flex items-center justify-center bg-light-gray/40 backdrop-blur-md border-black/10 border-b-[1px] z-50">
+            <div className="flex justify-between w-full max-w-6xl">
                 <Image 
                     src={"/pka_extended_logo.svg"} 
                     alt={"logo pka extend"}

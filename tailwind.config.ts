@@ -30,7 +30,7 @@ const config: Config = {
       },
 
       colors: {
-        'light-gray': 'rgb(250, 250, 252)',
+        'light-gray': 'rgb(247, 247, 247)',
         'gray': 'rgb(209, 209, 209)',
         'blue-gray': 'rgb(128, 130, 133)',
         'dark-gray': 'rgb(85, 85, 85)',

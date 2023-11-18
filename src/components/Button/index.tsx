@@ -17,7 +17,7 @@ export default function CustomButton(props: customButtonProps){
 
     return (
         <button 
-            className={`${bgColor} ${color} ${customClass} px-5 py-2.5 lg:px-4 mx-1 rounded-full font-medium text-sm`}
+            className={`${bgColor} ${color} ${customClass} px-5 py-2 lg:px-4 mr-2 rounded-full font-medium text-xs`}
             onClick={action}>
             {label}
         </button>

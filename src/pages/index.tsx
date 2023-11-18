@@ -1,6 +1,9 @@
+import Chart from '@/components/Chart'
+import Cover from '@/components/Cover'
 import Footer from '@/components/Footer'
 import Layout from '@/components/Layout'
 import Navbar from '@/components/NavBar'
+import Prestations from '@/components/Prestations'
 
 
 export default function Home() {
@@ -8,7 +11,9 @@ export default function Home() {
     <Layout>
       <main className="min-h-screen w-full relative flex flex-col items-center Sf-pro">
         <Navbar/>
-          <div className="w-screen h-screen bg-light-gray"></div>
+        <Cover/>
+        <Chart/>
+        <Prestations/>
         <Footer/>
       </main>
     </Layout>
