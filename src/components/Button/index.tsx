@@ -4,6 +4,7 @@ interface customButtonProps {
     color?: string
     action?: () => {}
     customClass?: string
+    disabled?: boolean
 }
 
 export default function CustomButton(props: customButtonProps){
@@ -13,6 +14,7 @@ export default function CustomButton(props: customButtonProps){
         color,
         action,
         customClass,
+        disabled
     } = props
 
     return (

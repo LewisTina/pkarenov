@@ -6,7 +6,7 @@ export default function Chart() {
     return (
         <SectionLayout id={"chart"}>
             <div className="w-full flex justify-center xl:px-4 lg:px-0">
-                <div className="w-full bg-light-gray rounded-xl lg:rounded-none flex justify-center py-24 px-4 overflow-hidden">
+                <div className="w-full bg-light-gray rounded-xl lg:rounded-none flex justify-center py-24 lg:px-10 md:px-4 overflow-hidden">
                     <div className="max-w-[986px] w-full flex items-center md:flex-col">
                         <div className="w-9/12 md:w-full">
                             <h2 className="text-7xl lg:text-6xl md:text-5xl font-bold my-3 w-11/12 md:w-full text-primary">

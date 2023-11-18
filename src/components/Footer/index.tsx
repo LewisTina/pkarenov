@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer(props: any) {
     const {t} = useTranslation('common')
     return(
-        <footer className="w-full flex flex-col items-center px-4 pt-20">
+        <footer className="w-full flex flex-col items-center lg:px-10 md:px-4 pt-20">
             <div className="w-full max-w-6xl flex flex-col items-center pb-3 border-black/10 border-b-[1px]">
                 <div className="flex flex-col justify-start items-start w-full max-w-[986px]">
                     {/* <Image 

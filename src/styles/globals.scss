@@ -69,6 +69,8 @@ html{
 
 body{
   transition: background 0.3s;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 input::-webkit-outer-spin-button,
@@ -84,7 +86,7 @@ input::-webkit-inner-spin-button {
 
   /* custom scrollbar */
   ::-webkit-scrollbar {
-    width: 1em;
+    width: 16px;
   }
   
   ::-webkit-scrollbar-track {
