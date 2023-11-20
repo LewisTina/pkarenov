@@ -1,10 +1,518 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Merci pour votre message</title>
-</head>
-<body>
-  
-</body>
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Confirmation de reception de message</title>
+    <style>
+      /* -------------------------------------
+          GLOBAL RESETS
+      ------------------------------------- */
+      
+      /*All the styling goes here*/
+      
+      img {
+        border: none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100%; 
+      }
+
+      .intro-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .intro-image img{
+        width: 80%;
+        height: auto;
+      }
+
+      body {
+        font-family:Roboto, sans-serif;
+        font-size: 0.9em;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%; 
+      }
+
+      table {
+        border-collapse: separate;
+        width: 100%; }
+        
+     table td {
+          vertical-align: top; 
+      }
+
+      /* -------------------------------------
+          BODY & CONTAINER
+      ------------------------------------- */
+
+      .body {
+        width: 100%; 
+      }
+
+      /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+      .container {
+        display: block;
+        margin: 10px auto !important;
+        /* makes it centered */
+        max-width: 580px;
+        padding: 10px;
+        width: 580px; 
+      }
+
+      /* This should also be a block element, so that it will fill 100% of the .container */
+      .content {
+        box-sizing: border-box;
+        display: block;
+        margin: 0 auto;
+        max-width: 580px;
+        padding: 10px; 
+      }
+
+      /* -------------------------------------
+          HEADER, FOOTER, MAIN
+      ------------------------------------- */
+      .main {
+        background: #ffffff;
+        border-radius: 0.3em;
+        width: 100%; 
+      }
+
+      .intro-logo{
+        background-color: rgb(247, 247, 247);
+        padding: 16px !important;
+      }
+
+      .header-title{
+        width: 100%;
+        padding: 32px 0;
+      }
+
+      .name{
+        font-size: 32px;
+        font-weight: 900;
+      }
+
+      .thanks{
+        font-size: 32px;
+        display: flex;
+        color: rgb(13, 12, 34);
+        font-weight: bold;
+        margin-bottom: 32px;
+      }
+
+      .wrapper {
+        box-sizing: border-box;
+        padding: 2.5em 1em 1em 1em; 
+      }
+
+      .content-block {
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+
+      .footer {
+        clear: both;
+        padding: 10px;
+        text-align: left;
+        width: 100%;
+        background-color: rgb(247, 247, 247);
+        color: white;
+        box-sizing: border-box;
+      }
+
+      .footer img {
+        height: 100%;
+        width: 108px;
+        max-width: 108px;
+      }
+        .footer td,
+        .footer p,
+        .footer span,
+        .footer a {
+          color: rgb(13, 12, 34) !important;
+          font-size: 12px;
+          line-height: 3em !important;
+      }
+
+      .footer a {
+        display: block;
+        margin: 0 0.5rem;
+      }
+
+      /* -------------------------------------
+          TYPOGRAPHY
+      ------------------------------------- */
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: #000000;
+        font-weight: 400;
+        line-height: 1.4;
+        margin: 0;
+        margin-bottom: 30px; 
+      }
+
+      .title, .bodyText, .signature{
+        color: #000000;
+      }
+
+      h1 {
+        font-size: 35px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: capitalize; 
+      }
+
+      p,
+      ul,
+      ol {
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 15px; 
+      }
+        p li,
+        ul li,
+        ol li {
+          list-style-position: inside;
+          margin-left: 5px; 
+      }
+
+      a {
+        color: rgb(12, 0, 255) !important;
+        text-decoration: none; 
+        font-weight: bold
+      }
+
+      .point{
+        background-color: #eee;
+      }
+
+      /* -------------------------------------
+          BUTTONS
+      ------------------------------------- */
+      .btn {
+        box-sizing: border-box;
+        width: 100%; 
+        padding : 32px;
+        background-color: #eee;
+      }
+
+        .btn table {
+          width: min-content; 
+      }
+        .btn table td {
+          background-color: #ffffff;
+          border-radius: 40px;
+          text-align: center; 
+      }
+        .btn a, .btn2 a {
+          background-color: #ffffff;
+          border: solid 1px rgb(12, 0, 255);
+          border-radius: 40px;
+          box-sizing: border-box;
+          color: rgb(12, 0, 255);
+          cursor: pointer;
+          display: inline-block;
+          font-weight: bold;
+          margin: 0;
+          width: min-content;
+          padding: 12px 25px;
+          text-decoration: none;
+          white-space: nowrap;
+      }
+
+      .btn-primary table td {
+        background-color: rgb(12, 0, 255); 
+      }
+
+      .btn-primary a {
+        background-color: rgb(12, 0, 255);
+        border-color: rgb(12, 0, 255);
+        width: 100%;
+        color: #ffffff !important; 
+      }
+
+      .logoLink{
+        width: 100%;
+      }
+
+      .logoLink a span{
+        display: none;
+        visibility: hidden;
+        overflow: hidden;
+      }
+
+      .socialLink td{
+        text-align: center;
+        margin: auto;
+        padding: 16px !important;
+        box-sizing: border-box !important;
+      }
+
+      .socialLink a {
+        text-align: center;
+        display: inline-flex;
+        justify-content: center;
+        box-sizing: border-box;
+        height: 50px;
+        width: 50px;
+        max-height: 50px !important;
+        max-width: 50px !important;
+        box-sizing: border-box !important;
+      }
+
+      .socialLink a img {
+        height: 50px;
+        width: 50px;
+        box-sizing: border-box !important;
+      }
+      
+
+
+      /* -------------------------------------
+          OTHER STYLES THAT MIGHT BE USEFUL
+      ------------------------------------- */
+      .last {
+        margin-bottom: 0; 
+      }
+
+      .first {
+        margin-top: 0; 
+      }
+
+      .align-center {
+        text-align: center; 
+      }
+
+      .align-right {
+        text-align: right; 
+      }
+
+      .align-left {
+        text-align: left; 
+      }
+
+      .clear {
+        clear: both; 
+      }
+
+      .mt0 {
+        margin-top: 0; 
+      }
+
+      .mb0 {
+        margin-bottom: 0; 
+      }
+
+      .preheader {
+        color: transparent;
+        display: none;
+        height: 0;
+        max-height: 0;
+        max-width: 0;
+        opacity: 0;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0; 
+      }
+
+      .powered-by a {
+        text-decoration: none; 
+      }
+
+      hr {
+        border: 0;
+        border-bottom: 1px solid #f6f6f6;
+        margin: 20px 0; 
+      }
+
+      .title {        
+        font-size: 1.5em;
+        font-weight: bold;  
+        }
+
+        .code{
+                margin: 0 0 10px 0;
+                display: flex;
+                justify-content: center;
+                font-size: 2em;
+                font-weight: bold;
+                color:rgb(12, 0, 255); 
+            }
+
+      /* -------------------------------------
+          RESPONSIVE AND MOBILE FRIENDLY STYLES
+      ------------------------------------- */
+      @media only screen and (max-width: 620px) {
+        table.body .content {
+          padding: 0 !important; 
+        }
+        table.body .container {
+          padding: 0 !important;
+          width: 100% !important; 
+        }
+        table.body .main {
+          border-left-width: 0 !important;
+          border-right-width: 0 !important; 
+        }
+      }
+
+      /* -------------------------------------
+          PRESERVE THESE STYLES IN THE HEAD
+      ------------------------------------- */
+      @media all {
+        .ExternalClass {
+          width: 100%; 
+        }
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+          line-height: 100%; 
+        }
+        .apple-link a {
+          color: inherit !important;
+          font-family: inherit !important;
+          font-size: inherit !important;
+          font-weight: inherit !important;
+          line-height: inherit !important;
+          text-decoration: none !important; 
+        }
+        #MessageViewBody a {
+          color: inherit;
+          text-decoration: none;
+          font-size: inherit;
+          font-family: inherit;
+          font-weight: inherit;
+          line-height: inherit;
+        }
+        .btn-primary table td:hover {
+          background-color: #071415 !important; 
+        }
+        .btn-primary a:hover {
+          background-color: #071415 !important;
+          border-color: #071415 !important; 
+        } 
+      }
+
+    </style>
+  </head>
+  <body>
+    <span class="preheader">Confirmation de reception.<br></span>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+      <tr>
+        <td>&nbsp;</td>
+        <td class="container">
+          <div class="content">
+            <table>
+                <tr>
+                    <td style="box-sizing: border-box;" class="intro-logo">
+                      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td>
+
+                            <table>
+                              <tr>
+                                <td style="text-align: center; box-sizing: border-box;" class="intro-image">
+                                  <img src="https://www.pkarenov.fr/destructured_circle_logo.svg" alt="app logo">
+                                </td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                        <tr style="width: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;">
+                          <td class="name" style="display: flex; justify-content: center; align-items: center;">
+                          </td>
+                          <td style="text-align: left;">
+                            Message reçu le {{date}}
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="header-title">
+                            <table>
+                              <tr>
+                                <td>
+                                  <span class="thanks">
+                                    Merci pour votre message, {{first_name}} <br>
+                                  </span>
+                                  <span class="">
+                                    Ceci est une réponse automatique pour confirmer la réception de votre message
+                                  </span>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                </tr>
+            </table>
+            <!-- START CENTERED WHITE CONTAINER -->
+            <table role="presentation" class="main">
+
+              <!-- START MAIN CONTENT AREA -->
+              <tr>
+                <td class="wrapper">
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td>
+                        <p class="bodyText">Cher {{name}}, <br>
+                            Nous avons bien reçu votre demande et nous vous informons que nous reviendrons vers vous au plus vitre afin de répondre à votre besoin.
+                        </p>
+                        <p class="signature">
+                            Je vous remercie d'avance pour votre patience<br>
+                            <br>
+                            Cordialement, <br>
+                            PKA Rénov
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+            <!-- END MAIN CONTENT AREA -->
+            </table>
+
+            <!-- START FOOTER -->
+            <div class="footer">
+              <table  role="presentation" border="0" cellpadding="0" cellspacing="0" style="">
+                <tr>
+                  <td>
+                    <p style="margin-bottom: 0 !important; text-align: left; display: flex; flex-wrap: wrap; justify-content: flex-start;">
+                      <span style="margin-bottom: 0 !important; display: flex; flex-wrap: wrap; justify-content: flex-start;">
+                        <a  target="_blank" href="tel:+330767914587">+330767914587</a>  <a  target="_blank" href="mailto:contact@pkarenov.fr">contact@pkarenov.fr</a>  <a  target="_blank" href="https://www.pkarenov.fr/fr">www.pkarenov.fr</a>
+                      </span>
+                    </p>
+                  </td>
+                </tr>
+                <!-- <tr>
+                  <td>
+                    <p style="margin-bottom: 0 !important; text-align: center; display: flex; flex-wrap: wrap; justify-content: center;">
+                      <a  target="_blank" href="https://www.lewistina.com/cgu"> Conditions d'utilisation </a> &nbsp;
+                      <a  target="_blank" href="https://www.lewistina.com/privacy"> Polique de confidentialité </a> &nbsp;
+                      <a  target="_blank" href="https://www.lewistina.com/cookies"> Cookies </a> &nbsp;
+                    </p>
+                  </td>
+                </tr> -->
+              </table>
+            </div>
+            <!-- END FOOTER -->
+
+          </div>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
 </html>

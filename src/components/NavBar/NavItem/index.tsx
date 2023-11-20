@@ -3,16 +3,21 @@ import Link from "next/link"
 interface NavItemProps {
     label: string
     path: string
+    customClass?: string
+    onclick?: () => void
 }
 
 export default function NavItem(props: NavItemProps) {
     const {
         label,
-        path
+        path,
+        customClass,
+        onclick
     } = props
     return (
         <Link 
-            className={`px-5 py-2.5 mx-1 lg:px-1 rounded-full font-medium text-sm`} 
+            className={`px-5 py-2 mx-1 lg:px-2 ${customClass} rounded-full font-medium text-xs md:text-sm`} 
+            onClick={onclick}
             href={path}>
             {label}
         </Link>

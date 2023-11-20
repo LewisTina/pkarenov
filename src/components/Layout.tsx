@@ -10,7 +10,7 @@ const Layout = (props: LayoutProps) => {
     const {title, children} = props
 
     return (
-        <main>
+        <main className='Sf-pro'>
             <Head>
                 <title>{title ? title : "PKA Renov"}</title>
                 <meta charSet="utf-8" />

@@ -6,7 +6,7 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  //darkMode: 'class',
+  darkMode: 'class',
   theme: {
     
     screens: {
@@ -27,10 +27,12 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'realizations-cover-bg': "url('/petite-salle-bain-au-style-moderne-ai-genere-1.jpg')",
       },
 
       colors: {
-        'light-gray': 'rgb(250, 250, 252)',
+        'darkest': "rgb(12, 15, 19)",
+        'light-gray': 'rgb(247, 247, 247)',
         'gray': 'rgb(209, 209, 209)',
         'blue-gray': 'rgb(128, 130, 133)',
         'dark-gray': 'rgb(85, 85, 85)',
