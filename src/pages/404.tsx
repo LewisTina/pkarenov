@@ -1,29 +1,24 @@
 import Layout from "@/components/Layout";
 import Navbar from "@/components/NavBar";
 import useTranslation from "next-translate/useTranslation";
+import Image from "next/image"
 
 const Content404 = () => {
     const {t} = useTranslation('common')
     return(
         <div className="w-screen h-screen flex justify-center items-center">
             <div className="">
-                <div className="flex sm:flex-col sm:items-center">
+                <div className="flex flex-col items-center">
                     <div className="flex items-center">
-                        <div className="">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" fill="none" className='w-12'>
-                                <circle cx="16.7887" cy="16.2113" r="15.7113" className='stroke-primary'/>
-                                <circle cx="16.7887" cy="16.2112" r="12.2999" className='stroke-primary'/>
-                            </svg>
-                        </div>
-                        <div className="flex px-6 border-r-2 sm:border-r-0 border-darkest dark:border-white">
-                            <span className="text-6xl">
+                        <div className="flex px-6">
+                            <span className="text-9xl coolvetica">
                                 404
                             </span>
                         </div>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex items-center coolvetica">
                         <div className="px-6 sm:px-0 sm:py-5">
-                            <span className={`font-semibold`}>
+                            <span className={`text-6xl md:text-3xl lg:text-5xl`}>
                                 {t('page_not_found')}
                             </span>
                         </div>
@@ -36,10 +31,19 @@ const Content404 = () => {
 
 export default function Custom_404(props: any){
     return(
-        <Layout title="404 - Lewis Tina">
-            <main className="min-h-screen w-full relative flex flex-col items-center">
+        <Layout title="404 - Page Introuvable - Pka Rénov">
+            <main className="fixed inset-0 flex flex-col items-center">
                 <Navbar/>
                 <Content404/>
+
+                <div className="w-64 md:w-32 h-auto relative bottom-4 pointer-events-none">
+                    <Image 
+                        width={100}
+                        height={100}
+                        className="h-auto w-full object-contain md:mb-5"
+                        src={"/destructured_circle_logo.svg"} 
+                        alt={"logo pka extend"}/>
+                </div>
             </main>
         </Layout>
     )

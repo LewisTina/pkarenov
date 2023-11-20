@@ -12,11 +12,13 @@ export default function Navbar(props: any){
     return(
         <header className="w-full fixed pl-4 pr-3 py-3 flex items-center justify-center bg-light-gray/40 dark:bg-darkest/40 backdrop-blur-md border-black/10 dark:border-gray/10 border-b-[1px] z-[99]">
             <div className="flex justify-between items-center w-full max-w-6xl">
-                <Image 
-                    src={"/pka_extended_logo.svg"} 
-                    alt={"logo pka extend"}
-                    height={26}
-                    width={158}/>
+                <Link href={"/#home"}>
+                    <Image 
+                        src={"/pka_extended_logo.svg"} 
+                        alt={"logo pka extend"}
+                        height={26}
+                        width={158}/>
+                </Link>
 
                 <div className="flex items-center md:hidden">
                     <NavItem 
