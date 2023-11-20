@@ -1,0 +1,12 @@
+.preload {
+    animation: out 0.5s forwards 3s; 
+  
+  }
+
+@keyframes out {
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+  

@@ -69,8 +69,6 @@ html{
 
 body{
   transition: background 0.3s;
-  overflow-x: hidden;
-  overflow-y: auto;
 }
 
 input::-webkit-outer-spin-button,
@@ -104,11 +102,12 @@ input::-webkit-inner-spin-button {
     background-color: #8A8A8A;
   }
 
-/* @layer base{
-  body {
-      @apply bg-white
+  @layer base{
+    body {
+        @apply dark:bg-darkest bg-white
+    }
   }
-} */
+  
 
 .animate-float {
   animation: float 5s ease-in-out infinite;
@@ -123,5 +122,31 @@ input::-webkit-inner-spin-button {
   }
   100% {
     transform: translatey(0px) rotate(0deg);
+  }
+}
+
+
+#Calque_1 {
+  * {
+      stroke: #D1D1D1;
+      fill: none;
+      stroke-width: 0.01em;
+      stroke-linejoin: round;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 3s forwards; 
+      // animation: draw 1.7s linear normal forwards;
+    }
+
+  path:nth-child(even) { animation-delay: 2s;}
+}
+
+#Calque_1 animate {
+  animation-delay: 4s;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
   }
 }

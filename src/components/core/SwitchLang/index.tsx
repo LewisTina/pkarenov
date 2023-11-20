@@ -37,11 +37,12 @@ export default function SwitchLang() {
       <div className={style.preview}>
         <button 
           type="button"
-          className="flex w-full items-center gap-x-1.5 rounded-md text-darkest dark:text-white px-3 py-2 text-xs font-bold" id="lang-button" 
+          className="flex w-full items-center gap-x-1.5 rounded-md text-secondary px-3 py-2 text-sm" id="lang-button" 
           aria-expanded="true"
           aria-haspopup="true"
           onClick={() => {setIsOpen(!isOpen)}}>
             {router.locale}
+          <i className="bi-translate">{""}</i>
         </button>
       </div>
       
@@ -51,7 +52,7 @@ export default function SwitchLang() {
         <div className={`absolute right-0 z-10 mt-5 w-20 origin-top-right rounded-md bg-white dark:bg-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none ${style.menuButton}`} role="menu" aria-orientation="vertical" aria-labelledby="lang-button">
           <div className="py-1" role="none">
             <button 
-              className="text-gray-700 dark:text-white hover:dark:bg-white/20 hover:bg-gray-100 flex w-full items-center px-4 py-2 text-sm font-bold" 
+              className="text-gray-700 dark:text-white hover:dark:bg-white/20 hover:bg-gray-100 flex w-full items-center px-4 py-2 text-sm" 
               role="menuitem" 
               id="lang-item-0"
               onClick={() => {handleLanguageChange('fr')}}>
@@ -59,7 +60,7 @@ export default function SwitchLang() {
             </button>
 
             <button 
-              className="text-gray-700 dark:text-white hover:dark:bg-white/20 hover:bg-gray-100 flex w-full items-center px-4 py-2 text-sm font-bold" 
+              className="text-gray-700 dark:text-white hover:dark:bg-white/20 hover:bg-gray-100 flex w-full items-center px-4 py-2 text-sm" 
               role="menuitem" 
               id="lang-item-1"
               onClick={() => {handleLanguageChange('en')}}>

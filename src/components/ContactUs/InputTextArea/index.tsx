@@ -28,7 +28,7 @@ export default function InputTextArea(props: formInput){
                         }
                         )}
                     min ="0"
-                    className={`rounded-md p-2 px-4 w-80 max-w-full sm:w-full h-40 focus:ring-2 focus:ring-secondary focus:ring-offset-2 outline-none ${(isRequired != undefined) && (isRequired[name] && " ring-blood-red ring-offset-2 ring-2")}`}
+                    className={`border-[1px] bg-white dark:bg-darkest border-gray/40 dark:border-dark-gray/20 rounded-md p-2 px-4 w-80 max-w-full sm:w-full h-40 focus:ring-1 focus:ring-secondary focus:ring-offset-1 outline-none ${(isRequired != undefined) && (isRequired[name] && " ring-blood-red ring-offset-1 ring-1")}`}
                     placeholder={placeholder}
                     onKeyUp={onChange}
                     />

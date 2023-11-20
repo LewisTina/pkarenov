@@ -6,7 +6,7 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  //darkMode: 'class',
+  darkMode: 'class',
   theme: {
     
     screens: {
@@ -31,6 +31,7 @@ const config: Config = {
       },
 
       colors: {
+        'darkest': "rgb(12, 15, 19)",
         'light-gray': 'rgb(247, 247, 247)',
         'gray': 'rgb(209, 209, 209)',
         'blue-gray': 'rgb(128, 130, 133)',

@@ -6,14 +6,9 @@ import Link from "next/link";
 export default function Footer(props: any) {
     const {t} = useTranslation('common')
     return(
-        <footer className="w-full flex flex-col items-center lg:px-10 md:px-4 pt-20">
-            <div className="w-full max-w-6xl flex flex-col items-center pb-3 border-black/10 border-b-[1px]">
-                <div className="flex flex-col justify-start items-start w-full max-w-[986px]">
-                    {/* <Image 
-                        src={"/pka_extended_logo.svg"} 
-                        alt={"logo pka extend"}
-                        height={26}
-                        width={158}/> */}
+        <footer className="w-full flex flex-col items-center px-4 pt-20">
+            <div className="w-full max-w-6xl flex flex-col items-center pb-3 border-black/10 dark:border-gray/10 border-b-[1px]">
+                <div className="flex flex-col justify-start items-start w-full">
 
                     <div className="flex w-full justify-between items-center md:flex-col md:items-start">
                         <div className="pt-4">
@@ -21,21 +16,29 @@ export default function Footer(props: any) {
                                 Nous contacter directement
                             </h1>
                             <div className="my-5 flex flex-wrap">
+                                <a href="mailto:contact@pkarenov.fr">
                                 <CustomButton 
                                     label={"Envoyez un e-mail"}
-                                    color="text-white"
-                                    bgColor="bg-primary"
+                                    color="text-white dark:text-primary"
+                                    bgColor="bg-primary dark:bg-white"
                                     customClass="mt-2"/>
+                                </a>
+
+                                <a href={"sms:+330754065492?body=Bonjour, Pouvez vous me rappeler sur ce numéro afin de discuter sur un project? \n Message envoyer depuis pkarenov.fr"}>
                                 <CustomButton 
                                     label={"Envoyez un sms"}
-                                    color="text-green"
-                                    bgColor="bg-green/10"
+                                    color="text-green dark:text-white"
+                                    bgColor="bg-green/10 dark:bg-green"
                                     customClass="ml-4 md:ml-0 mt-2"/>
+                                </a>
+
+                                <a href="tel:+330754065492">
                                 <CustomButton 
                                     label={"Appelez nous"}
-                                    color="text-secondary"
-                                    bgColor="bg-secondary/10"
+                                    color="text-secondary dark:text-white"
+                                    bgColor="bg-secondary/10 dark:bg-secondary"
                                     customClass="ml-4 md:ml-0 mt-2"/>
+                                </a>
                             </div>
                             <div className="my-5">
                                 <p className="leading-10">
@@ -45,20 +48,20 @@ export default function Footer(props: any) {
 
                             <div className="my-5">
                                 <p className="flex leading-10 flex-wrap text-blue-gray font-normal">
-                                    <Link href={"/mentions-legales"} className="mr-16 md:mr-8">
+                                    <Link href={""} className="mr-16">
                                         Mentions Légales
                                     </Link>
-                                    <Link href={"/mentions-legales"} className="mr-16 md:mr-8">
+                                    <Link href={""} className="mr-16">
                                         Politique de confidentiaité
                                     </Link>
-                                    <Link href={"/mentions-legales"}>
+                                    <Link href={""}>
                                         Conditions générales de ventes
                                     </Link>
                                 </p>
                             </div>
                         </div>
 
-                        <div className="w-64 min-w-[256px] m-auto h-auto relative -bottom-4">
+                        <div className="w-64 min-w-[256px] ml-auto md:m-auto h-auto relative -bottom-4 pointer-events-none">
                             <Image 
                                 width={100}
                                 height={100}
@@ -70,7 +73,7 @@ export default function Footer(props: any) {
                 </div>
             </div> 
             <div className="w-full max-w-6xl my-5 flex justify-center">
-                <div className="flex flex-col justify-start items-start w-full max-w-[986px]">
+                <div className="flex flex-col justify-start items-start w-full">
                     <p className="text-blue-gray">
                         <span className="leading-10">
                             Réalisé et développé par &nbsp;
