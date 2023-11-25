@@ -1,12 +1,11 @@
-import useTranslation from "next-translate/useTranslation";
 import Image from "next/image"
 import CustomButton from "../Button";
 import Link from "next/link";
 
-export default function Footer(props: any) {
-    const {t} = useTranslation('common')
+export default function Footer(props: {bgColor?: string}) {
+    const {bgColor} = props
     return(
-        <footer className="w-full flex flex-col items-center px-4 pt-20">
+        <footer className={`w-full flex flex-col items-center px-4 pt-20 ${bgColor}`}>
             <div className="w-full max-w-6xl flex flex-col items-center pb-3 border-black/10 dark:border-gray/10 border-b-[1px]">
                 <div className="flex flex-col justify-start items-start w-full">
 
@@ -48,13 +47,13 @@ export default function Footer(props: any) {
 
                             <div className="my-5">
                                 <p className="flex leading-10 flex-wrap text-blue-gray font-normal">
-                                    <Link href={""} className="mr-16">
+                                    <Link href={"mentions-legales"} className="mr-16">
                                         Mentions Légales
                                     </Link>
-                                    <Link href={""} className="mr-16">
+                                    <Link href={"confidentiality"} className="mr-16">
                                         Politique de confidentiaité
                                     </Link>
-                                    <Link href={""}>
+                                    <Link href={"cgv"}>
                                         Conditions générales de ventes
                                     </Link>
                                 </p>

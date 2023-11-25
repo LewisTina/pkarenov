@@ -19,18 +19,21 @@ export default function ChartElement(props: ChartElementProps){
       });
 
       useEffect(() => {
+        const chartDiv = document.getElementById('chart');
+        
         const checkPosition = () => {
-          const chartDiv = document.getElementById('chart');
-          const rectChart = chartDiv!.getBoundingClientRect();
+          if(!!chartDiv) {
+            const rectChart = chartDiv!.getBoundingClientRect();
           
-          if (rectChart.top <= 200 && rectChart.top >= 0) {
-            if(!isIn) {
-                setIsIn(true)
+            if (rectChart.top <= 200 && rectChart.top >= 0) {
+              if(!isIn) {
+                  setIsIn(true)
+              }
             }
-          }
-          else {
-            if(isIn) {
-                setIsIn(false)
+            else {
+              if(isIn) {
+                  setIsIn(false)
+              }
             }
           }
         };

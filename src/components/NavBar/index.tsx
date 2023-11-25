@@ -55,7 +55,7 @@ export default function Navbar(props: any){
 
                 {
                     showSideBar && 
-                    <div className="fixed inset-0 bg-   /50 backdrop-blur-sm hidden md:flex justify-end z-[999]">
+                    <div className="fixed top-4 w-screen h-screen -m-4 bg-primary/50 backdrop-blur-sm hidden md:flex justify-end z-[999]">
                             <div className="h-full bg-white dark:bg-darkest w-4/5 flex flex-col justify-start items-end p-3" id="sideBarContent">
                                 <button 
                                     className={`bg-primary dark:bg-white text-white dark:text-primary  px-5 py-2.5 lg:px-4 mx-1 rounded-full font-medium hidden md:flex`}
