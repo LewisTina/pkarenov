@@ -10,9 +10,9 @@ export default function Introduction() {
                         <div className="w-full flex items-center justify-end lg:flex-col">
                             <ParallaxIntroduction/>
                             <div className="w-4/12 lg:w-full px-8 lg:px-0 relative flex flex-col items-start justify-start">
-                                <h4 className="text-5xl lg:text-4xl font-bold mb-4">
+                                <h3 className="text-5xl lg:text-4xl font-bold mb-4">
                                     {"Expertise Exceptionnelle en Rénovation"}
-                                </h4>
+                                </h3>
                                 <p className="">
                                     {"Avec PkaRenov, chaque projet est une occasion de créer quelque chose d'exceptionnel."}
                                 </p>

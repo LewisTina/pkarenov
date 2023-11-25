@@ -11,6 +11,101 @@
     "system": "System Default",
     "since": "since",
     "this": "this",
-    "not_found": "Oops, Page Not Found"
+    "not_found": "Oops, Page Not Found",
+
+    "last_update": "DLast update, on {{date}}.",
+    "legal_mentions": "Legacy",
+    "terms_and_services": "Terms and services",
+    "privacy": "privacy",
+
+    "terms_of_use_title": "Terms of Use",
+    "terms_of_use_section_1": "Acceptance of Terms",
+    "terms_of_use_section_1_content": "By accessing or using this website, you agree to be bound by these Terms of Use. If you do not agree with these terms, please do not use this website.",
+    "terms_of_use_section_2": "Use of Content",
+    "terms_of_use_section_2_content": "All content on this website, including text, images, and multimedia, is the property of PKA Rénov. You may not use, reproduce, or distribute any content without prior written permission.",
+    "terms_of_use_section_4": "Contact",
+    "terms_of_use_section_4_content": "To contact PKA Rénov, please use the contact information provided on this website. Any unsolicited communication or spam will be treated as a violation of these Terms of Use.",
+    "terms_of_use_section_5": "Disclaimer",
+    "terms_of_use_section_5_content": "This website is provided 'as is' without any warranties. PKA Rénov shall not be liable for any damages resulting from the use or inability to use this website.",
+    "terms_of_use_section_6": "Changes to Terms",
+    "terms_of_use_section_6_content": "PKA Rénov reserves the right to modify these Terms of Use at any time. It is your responsibility to review these terms periodically for updates.",
+
+    "privacy_policy_title": "Privacy Policy",
+    "privacy_policy_section_1": "Information Collected",
+    "privacy_policy_section_1_content": "We may collect personal information, such as your name and email address, when you choose to contact us through this website.",
+    "privacy_policy_section_2": "Use of Information",
+    "privacy_policy_section_2_content": "Any personal information collected will be used solely for the purpose of responding to your inquiries or providing requested services. We will not share your information with third parties without your consent.",
+    "privacy_policy_section_3": "Cookies",
+    "privacy_policy_section_3_content": "This website may use cookies to enhance your browsing experience. You can disable cookies in your browser settings if you prefer not to have them stored on your device.",
+    "privacy_policy_section_4": "Data Security",
+    "privacy_policy_section_4_content": "We take reasonable measures to protect your personal information. However, we cannot guarantee the security of data transmitted over the Internet. In France, personal data is protected by, for example, Law No. 78-87 of January 6, 1978, Law No. 2004-801 dated August 6, 2004, Article L. 226-13 of the Penal Code, and the European Directive of October 24, 1995. On the pkarenov.fr website, PKA Rénov does not collect personal information (in accordance with Article 4 of Law No. 78-17 of January 6, 1978) concerning the user except for the purpose of providing various services offered by the pkarenov.fr website. The user provides this information knowingly, particularly when entering it themselves. It is therefore the responsibility of the user of the pkarenov.fr website to decide whether or not to disclose this information. In accordance with the provisions of Articles 38 and others of Law No. 78-17 of January 6, 1978, concerning information technology, files, and freedoms, any user has the right to access information, rectify, delete, and object to all personal information concerning them. To exercise this right, send your request to pkarenov.fr by email: contact@pkarenov.fr or in writing, accompanied by a copy of your identity document and a signature of the document owner, specifying the address to which a response should be sent. No personal information about the user of the pkarenov.fr website is published without the user's knowledge, exchanged, transferred, sold on any medium to groups. Only in the event of the purchase of the pkarenov.fr website and all its rights does PKA Rénov have the right to transfer personal information to the potential buyer, who would be subject to the same obligation to store and modify data concerning the user of the pkarenov.fr website. The pkarenov.fr website complies with the GDPR; see our GDPR policy. Databases are secured by the obligations of the law of July 1, 1998, transposing Directive 96/9 of March 11, 1996 on the legal protection of databases.",
+    "privacy_policy_section_5": "Third-Party Links",
+    "privacy_policy_section_5_content": "This website may contain links to third-party websites. We are not responsible for the privacy practices or content of these websites.",
+    "privacy_policy_section_6": "Changes to Privacy Policy",
+    "privacy_policy_section_6_content": "We may update our Privacy Policy from time to time. You will be notified of any changes on this page.",
+
+    "article_intro": "In accordance with the provisions of Article 6-III and 19 of Law No. 2004-575 of June 21, 2004, concerning Confidence in the Digital Economy, known as the LCEN, we inform visitors to the website: pkarenov.fr of the following information:",
+    "owner": "The Owner",
+    "owner_address": "Location of the Owner",
+    "web_developer": "Developer of the website",
+    "publication_director": "The Publication Director",
+    "contact_publication_director": "Contact the Publication Director",
+    "developer": "The Developer",
+    "contact_developer": "Contact the Developer",
+    "website_host": "Website host",
+    "sas_info": "SAS with a capital of 500,000 Euros",
+    "trade_register": "Trade and Companies Register in french , 'Registre du commerce et des sociétés'",
+    "vat_number": "VAT Number",
+    "user_agreement-10": "Any internet user who connects and uses the website: www.pkarenov.fr is considered a user of the website. The website www.pkarenov.fr offers various services, as is, made available to users. It is naturally specified that users must remain honest and act in good faith towards other users and the Creator of the pkarenov.fr website. The pkarenov.fr website is regularly updated by PKA Rénov. PKA Rénov strives to provide the most accurate information on the pkarenov.fr website about is activities, but cannot guarantee the accuracy, completeness, and information transmitted on its website, whether by its own actions or those of third-party partners who provide this information. Consequently, the user acknowledges that they use the information provided under their sole responsibility.",
+    "user_agreement": "The pkarenov.fr website is generally accessible to users 24/7, except in the event of planned or unplanned interruptions for maintenance or force majeure. In the event of unavailability of the service, pkarenov.fr will do its utmost to restore access to the site and will attempt to communicate the dates and times of the intervention to users in advance. Being subject only to a means obligation, pkarenov.fr cannot be held responsible for any damage, of any nature whatsoever, resulting from unavailability of the service.",
+    "site_accessibility": "The pkarenov.fr website is generally accessible to users 24/7, except in the event of planned or unplanned interruptions for maintenance or force majeure. In the event of unavailability of the service, pkarenov.fr will do its utmost to restore access to the site and will attempt to communicate the dates and times of the intervention to users in advance. Being subject only to a means obligation, pkarenov.fr cannot be held responsible for any damage, of any nature whatsoever, resulting from unavailability of the service.",
+    "intellectual_property": "PKA Rénov is the sole owner of all intellectual property rights or holds usage rights for all elements accessible on the following site, both structurally and in terms of texts, images, graphics, logos, soundtracks, software, etc. Any reproduction, even partial, of the pkarenov.fr website, display, editing, total or partial updating of any of these elements, by any means or technique, is prohibited, except with the prior written consent of PKA Rénov, the website's director. Representation, editing, adaptation, in whole or in part, of any of these elements, regardless of the means or process used, is prohibited, except with the prior consent of PKA Rénov, the website's director, at the following email address: contact@pkarenov.fr, otherwise it will be treated as counterfeiting and subject to prosecution in accordance with the provisions of Articles L.335-2 and following of the Intellectual Property Code.",
+    "intellectual_property_title":"Intellectual property",
+    "accessibility":"Accessibility",
+    "cgv_title": "General sale conditions",
+
+    "CGV": {
+        "Definitions": {
+          "Title": "Definitions",
+          "Content": "In the context of these general conditions of sale, the following terms will have the following meanings: \n - PKA Rénov | registered under SIRET number 847 942 877 00014 and whose head office is located at 38 Rue anatole France, Saint-priest 69800. \n - Client | designates any natural or legal person using the services of the renovation company. \n - Works | designates the renovation or construction services carried out by the renovation company for the customer's account."
+        },
+        "Object": {
+          "Title": "Purpose",
+          "Content": "These general terms and conditions define the conditions under which the renovation company provides its services to the client. They govern the obligations and rights of both parties regarding the realization of renovation works."
+        },
+        "DevisCommandes": {
+          "Title": "Quotes and Orders",
+          "Content": "Any quote issued by the renovation company is valid for a period of 02 Mois. Placing an order by the client implies acceptance of the rates, conditions, and deadlines mentioned in the quote."
+        },
+        "ModalitesPaiement": {
+          "Title": "Payment Terms",
+          "Content": "The price of the work is defined in the estimate. Payment is made according to the following terms specific to each estimate sent depending on the amount of deposit which depends on each situation. Any late payment may result in penalties of delay in accordance with current legislation."
+        },
+        "RealisationTravaux": {
+          "Title": "Execution of Works",
+          "Content": "The renovation company undertakes to carry out the works in accordance with the specifications in the quote and in compliance with the current standards. Any change or addition of works not initially planned in the quote will be the subject of an amendment specifying the financial conditions and any additional timeframe."
+        },
+        "ResponsabilitesGaranties": {
+          "Title": "Responsibilities and Guarantees",
+          "Content": "The renovation company guarantees the conformity of the works carried out and undertakes to remedy any defect noted within a reasonable period after receipt of the works, as agreed."
+        },
+        "AnnulationResiliation": {
+          "Title": "Cancellation and Termination",
+          "Content": "In the event of cancellation of the order by the client, fees may be charged for works already engaged or scheduled."
+        },
+        "ProtectionsDonnees": {
+          "Title": "Personal Data Protection",
+          "Content": "The renovation company undertakes to respect the confidentiality of the personal data provided by the client and to use it only within the scope of the works carried out."
+        },
+        "LitigesJuridiction": {
+          "Title": "Disputes and Applicable Jurisdiction",
+          "Content": "In case of dispute, the parties undertake to seek an amicable solution. Failing that, the dispute shall be brought before the competent courts in accordance with the legislation in force."
+        },
+        "DispositionsFinales": {
+          "Title": "Final Provisions",
+          "Content": "These general terms and conditions of sale prevail over any document from the client and can be modified only in writing and by mutual agreement between the two parties."
+        }
+      }
+
 
 }

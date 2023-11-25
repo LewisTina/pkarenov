@@ -1,13 +1,16 @@
 
 import Head from 'next/head'
+import Footer from './Footer';
+import Navbar from './NavBar';
 
 interface LayoutProps {
     title?: string,
     children: React.ReactNode;
+    footerBgColor?: string
 }
 
 const Layout = (props: LayoutProps) => {
-    const {title, children} = props
+    const {title, children, footerBgColor} = props
 
     return (
         <main className='Sf-pro'>
@@ -29,7 +32,11 @@ const Layout = (props: LayoutProps) => {
                 <meta name="description" content="Présentation de PKA Renov - entreprise de rénovation" />
                 <meta name="keywords" content="pierrekevin - pierre - kevin - pierre-kevin - pierre kevin - pka - pkarenov  - pka renov - pka-renov  - renov -pkarénov  - pka rénov - pka-rénov  - rénov - rénovation - carrelage - plaquiste - carreleur - placo - sol - batiment - lyon"></meta> 
             </Head>
-                  {children}
+            <main className="min-h-screen w-full relative flex flex-col items-center overflow-x-hidden overflow-y-auto">
+                <Navbar/>
+                    {children}
+                <Footer bgColor={footerBgColor}/>
+             </main>
         </main>
   );
 }

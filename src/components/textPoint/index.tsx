@@ -10,7 +10,7 @@ export default function TextPoint(props: textPoint) {
             <h3 className="text-2xl font-bold">
                 {title}
             </h3>
-            <p className="w-full whitespace-pre-line font-medium text-justify  sm:text-left">
+            <p className="w-full whitespace-pre-line text-justify  sm:text-left">
                 {text}
             </p>
         </div>

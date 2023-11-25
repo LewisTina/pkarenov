@@ -16,7 +16,7 @@ export default function Realizations() {
                         <ProjectDescription title={"02 Salles de Bain Rénovées dans un appartement complètement refait."} description={"Carrelage sol et murs, pose de cloisons, bac et paroi de douche, meuble vasque, WC suspendu ... en bref aménagement complet."}/>
                     </div>
                     <div className="max-w-[986px] w-full flex items-center justify-between md:flex-col">
-                        <VideoPresentation videosUrl={"/laplagne-soleil-chalet.mov"}/>
+                        <VideoPresentation videosUrl={"/laplagne-soleil-chalet.mp4"}/>
                         <ProjectDescription title={"Rénovation chalet."} description={"Pose d’une nouvelle cheminée, Installation chauffage sol, pose de parquet,  habillage mur en mélèze. et bien plus (Salle de bain, carrelage habillage murs externes en pierre reconstituées)"}/>
                     </div>
                     <div className="max-w-[986px] w-full flex items-center justify-between flex-row-reverse md:flex-col">

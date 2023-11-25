@@ -14,14 +14,14 @@ export default function Cover(props: any){
             </div>
             <div className="inset-0 p-4 absolute flex flex-col justify-between items-center py-4">
                 <span className=""></span>
-                <p className="text-center max-w-2xl text-primary dark:text-white">
-                    <span className="block">
+                <div className="text-center max-w-2xl text-primary dark:text-white">
+                    <h1 className="block">
                         Chez PkaRenov, la rénovation va bien au-delà de la simple amélioration esthétique.
-                    </span>
-                    <span className="text-7xl lg:text-6xl md:text-5xl font-bold">
+                    </h1>
+                    <h2 className="text-7xl lg:text-6xl md:text-5xl font-bold">
                         Transformez Votre Espace, Réalisez Vos Rêves
-                    </span>
-                </p>
+                    </h2>
+                </div>
                 <span className=""></span>
                 {/* <div className="relative bg-primary/20 h-24 flex items-center justify-center rounded-full aspect-square animate-bounce">
                     <Image 

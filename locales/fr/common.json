@@ -11,6 +11,100 @@
     "system": "Défaut système",
     "since": "depuis",
     "this": "Ce",
-    "page_not_found": "Désolé nous d'avons pas trouvé cette page"
+    "page_not_found": "Désolé nous d'avons pas trouvé cette page",
+
+    
+    "last_update": "Dernière mise à jour, le {{date}}.",
+    "legal_mentions": "Mentions légales",
+    "terms_and_services": "Conditions Générales d'Utilisation",
+    "privacy": "confidentialité",
+
+    "terms_of_use_title": "Conditions d'Utilisation",
+    "terms_of_use_section_1": "Acceptation des condition",
+    "terms_of_use_section_1_content": "En accédant ou en utilisant ce site web, vous acceptez d'être lié par ces Conditions d'Utilisation. Si vous n'êtes pas d'accord avec ces termes, veuillez ne pas utiliser ce site web.",
+    "terms_of_use_section_2": "Utilisation du Contenu",
+    "terms_of_use_section_2_content": "Tout le contenu de ce site web, y compris le texte, les images et les médias, est la propriété de PKA Rénov. Vous ne pouvez pas utiliser, reproduire ou distribuer tout contenu sans autorisation écrite préalable.",
+    "terms_of_use_section_4": "Contact",
+    "terms_of_use_section_4_content": "Pour contacter PKA Rénov, veuillez utiliser les informations de contact fournies sur ce site web. Toute communication non sollicitée ou spam sera considérée comme une violation de ces Conditions d'Utilisation.",
+    "terms_of_use_section_5": "Exonération de Responsabilité",
+    "terms_of_use_section_5_content": "Ce site web est fourni 'tel quel' sans aucune garantie. PKA Rénov ne sera pas responsable des dommages résultant de l'utilisation ou de l'incapacité à utiliser ce site web.",
+    "terms_of_use_section_6": "Modification des Conditions",
+    "terms_of_use_section_6_content": "PKA Rénov se réserve le droit de modifier ces Conditions d'Utilisation à tout moment. Il vous incombe de consulter périodiquement ces termes pour les mises à jour.",
+        
+    "privacy_policy_title": "Politique de Confidentialité",
+    "privacy_policy_section_1": "Collecte d'Informations",
+    "privacy_policy_section_1_content": "Nous pouvons collecter des informations personnelles, telles que votre nom et votre adresse e-mail, lorsque vous choisissez de nous contacter via ce site web.",
+    "privacy_policy_section_2": "Utilisation des Informations",
+    "privacy_policy_section_2_content": "Toutes les informations personnelles collectées seront utilisées uniquement dans le but de répondre à vos demandes ou de fournir les services demandés. Nous ne partagerons pas vos informations avec des tiers sans votre consentement.",
+    "privacy_policy_section_3": "Cookies",
+    "privacy_policy_section_3_content": "Ce site web peut utiliser des cookies pour améliorer votre expérience de navigation. Vous pouvez désactiver les cookies dans les paramètres de votre navigateur si vous préférez ne pas les stocker sur votre appareil.",
+    "privacy_policy_section_4": "Sécurité des Données",
+    "privacy_policy_section_4_content": "Nous prenons des mesures raisonnables pour protéger vos informations personnelles. Cependant, nous ne pouvons pas garantir la sécurité des données transmises sur Internet.En France, les données personnelles sont par exemple protégées par la loi n° 78-87 du 6 janvier 1978 , la loi n° 2004-801 datant du 6 août 2004, l'article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.\n Sur le site suivant pkarenov.fr, PKA Rénov ne collecte pas d'informations personnelles ( suivant l'article 4 loi n°78-17 du 06 janvier 1978) concernant l'utilisateur que pour le besoin de différents services offerts par le site pkarenov.fr. L'utilisateur donne ces données en toute connaissance de cause, notamment lorsqu'il procède par lui-même à la saisie. Il est donc résumé à l'usagé du site interne pkarenov.fr le devoir ou pas de divulguer ces informations.\n Conformément aux dispositions des articles 38 et autres de la loi 78-17 du 6 janvier 1978 concernant l'informatique, aux fichiers et aux libertés, n'importe quel utilisateur possède un droit d'accès aux informations, de rectification, de suppression et d'opposition à toutes les informations personnelles qui le concerne. Pour l'utiliser, envoyez votre demande à pkarenov.fr par mail : contact@pkarenov.fr ou alors via écrit  signée, jointe d'une copie de pièce d'identité ainsi qu'une signature du propriétaire de la pièce, en précisant l'adresse à laquelle une réponse doit être envoyée.\n \n Aucune information personnelle de l'utilisateur du site interne pkarenov.fr n'est publiée à l'insu de l'utilisateur, échangée, transférée, vendue sur n'importe quel support à des groupes. Seule l'hypothèse du rachat du site pkarenov.fr et de tout ses droits en autorise PKA Rénov à céder les informations personnelles à l'éventuel acquéreur qui serait lui-même tenu à la même nécéssité de conservation et de modification des données vis à vis de l'utilisateur du site pkarenov.fr.\n Le site suivant pkarenov.fr est conforme avec le RGPD voir notre politique RGPD.\n \n Les bases de données sont sécurisées par les obligations de la loi du 1er juillet 1998 transposant ainsi la directive 96/9 du 11 mars 1996 concernant la protection juridique des BDD (bases de données).\n",
+    "privacy_policy_section_5": "Liens vers des Tiers",
+    "privacy_policy_section_5_content": "Ce site web peut contenir des liens vers des sites web tiers. \n Néanmoins, PKA Rénov ne peut pas sécuriser l'intégralité des élements des différents sites visités et décline donc toute responsabilité de de cette façon quand aux risques éventuels de contenus interdits. \nNous ne sommes pas responsables des pratiques de confidentialité ou du contenu de ces sites web.",
+    "privacy_policy_section_6": "Modification de la Politique de Confidentialité",
+    "privacy_policy_section_6_content": "Nous pouvons mettre à jour notre Politique de Confidentialité de temps en temps. Vous serez informé(e) de tout changement sur cette page.",
+
+    "article_intro": "Correspondant aux dispositions  de l'article 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 concerçant la Confiance en l'économie numérique, dite L.C.E.N., nous informons les visiteurs du site : pkarenov.fr Les informations ci-dessous :",
+    "owner": "Le Propriétaire",
+    "owner_address": "Adresse de localisation du titulaire",
+    "web_developer": "Le Développeur du site web",
+    "publication_director": "Le Directeur de la publication",
+    "contact_publication_director": "Contacter le Directeur de publication",
+    "developer": "Le Développeur",
+    "contact_developer": "Joindre le Réalisateur",
+    "website_host": "Hébergeur du site web",
+    "sas_info": "SAS doté d'un capital de 500 000 Euros",
+    "trade_register": "Registre du commerce et des sociétés",
+    "vat_number": "Num. de TVA",
+    "user_agreement-10": "Tout internaute qui se connecte et utilise le site Internet : www.pkarenov.fr est considéré comme un utilisateur du site Internet. Le site Internet www.pkarenov.fr propose, en l'état, divers services mis à la disposition des utilisateurs. Il est bien entendu précisé que les utilisateurs doivent rester honnêtes et agir de bonne foi envers les autres utilisateurs et le Créateur du site pkarenov.fr. Le site pkarenov.fr est régulièrement mis à jour par PKA Rénov. PKA Rénov s'efforce de fournir les informations les plus précises sur le site pkarenov. Le site .fr concerne ses activités, mais ne peut garantir l'exactitude, l'exhaustivité et les informations transmises sur son site, que ce soit de son propre fait ou de celui des tiers partenaires qui lui fournissent ces informations. En conséquence, l'utilisateur reconnaît utiliser les informations fournies. sous leur seule responsabilité.",
+    "user_agreement": "Le site web pkarenov.fr est par principe accessible aux usagés H24 7/7, sauf en cas d'interruption, prévu ou pas, pour les besoins de la maintenance ou  force majeure. En cas de service indisponible, pkarenov.fr se devouera à faire son maximum afin de rétablir l'accès au site et tentera alors de communiquer préalablement aux utilisateurs Dates & heures de l'intervention. N'étant soumis qu'à une servitude de moyen, pkarenov.fr ne saurait être designé pour responsable de tout dommage, quelle qu'en soit sa nature, résultant d'une indisponibilité du service",
+    "intellectual_property": "PKA Rénov est propriétaire unique de tous les droits de propriété intellectuelle ou détient les droits d'usage sur l'intégralité des éléments accessibles sur le site suivant, tant structurellement que sur les textes, images, graphismes, logo, bande sonore, logiciels etc… \n Toute reproduction même partielle du site suivant pkarenov.fr, affichage, edition, mis à jour totale ou partielle de l'un  de ces éléments, quel que soit le  moyen ou la technique utilisé, est interdite, excepté acceptation écrite préalable de PKA Rénov, directeur du site web même partielle du site pkarenov.fr, représentation, edition, adaptation totalement ou partiellement de l'un quelconque de ces éléments, peu importe le  moyen ou le procédé utilisé, est interdite, excepté acceptation  préalable de PKA Rénov, directeur du site web au mail suivant : contact@pkarenov.fr, sinon elle sera désigné de la même manière qu'une contrefaçon et passible de poursuite conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.",
+    "intellectual_property_title":"Propriété intellectuelle",
+    "accessibility":"Exigence d'accessibilité",
+    "cgv_title": "Condition Générales de ventes",
+
+    "CGV": {
+        "Definitions": {
+          "Title": "Définitions",
+          "Content": "Dans le cadre des présentes conditions générales de vente, les termes suivants auront les significations suivantes : \n - PKA Rénov | enregistrée sous le numéro de SIRET 847 942 877 00014 et dont le siège social est situé au 38 Rue anatole France, Saint-priest 69800. \n - Client | désigne toute personne physique ou morale faisant appel aux services de l'entreprise de rénovation. \n - Travaux | désigne les prestations de rénovation ou de construction effectuées par l'entreprise de rénovation pour le compte du client."
+        },
+        "Object": {
+          "Title": "Objet",
+          "Content": "Les présentes conditions générales de vente définissent les conditions dans lesquelles l'entreprise de rénovation fournit ses services au client. Elles régissent les obligations et les droits des deux parties concernant la réalisation des travaux de rénovation."
+        },
+        "DevisCommandes": {
+          "Title": "Devis et Commandes",
+          "Content": "Tout devis émis par l'entreprise de rénovation est valable pour une durée de 20 Mois. La passation d'une commande par le client implique son acceptation des tarifs, conditions et délais mentionnés dans le devis."
+        },
+        "ModalitesPaiement": {
+          "Title": "Modalités de Paiement",
+          "Content": "Le prix des travaux est défini dans le devis. Le règlement s'effectue selon les modalités suivantes spécifique à chaque devis envoyés fonction du montant d'acompte qui dépend de chaque situations. Tout retard de paiement pourra entraîner des pénalités de retard conformément à la législation en vigueur."
+        },
+        "RealisationTravaux": {
+          "Title": "Réalisation des Travaux",
+          "Content": "L'entreprise de rénovation s'engage à réaliser les travaux conformément aux spécifications du devis et dans le respect des normes en vigueur. Tout changement ou ajout de travaux non prévu initialement dans le devis fera l'objet d'un avenant précisant les conditions financières et le délai supplémentaire éventuel."
+        },
+        "ResponsabilitesGaranties": {
+          "Title": "Responsabilités et Garanties",
+          "Content": "L'entreprise de rénovation garantit la conformité des travaux réalisés et s'engage à remédier à tout défaut constaté dans un délai raisonnable après réception des travaux, selon les termes convenus."
+        },
+        "AnnulationResiliation": {
+          "Title": "Annulation et Résiliation",
+          "Content": "En cas d'annulation de la commande par le client, des frais pourront être facturés à hauteur des travaux déjà engagés ou planifiés."
+        },
+        "ProtectionsDonnees": {
+          "Title": "Protection des Données Personnelles",
+          "Content": "L'entreprise de rénovation s'engage à respecter la confidentialité des données personnelles fournies par le client et à les utiliser uniquement dans le cadre des travaux réalisés."
+        },
+        "LitigesJuridiction": {
+          "Title": "Litiges et Juridiction Applicable",
+          "Content": "En cas de litige, les parties s'engagent à chercher une solution à l'amiable. À défaut, le litige sera porté devant les tribunaux compétents conformément à la législation en vigueur."
+        },
+        "DispositionsFinales": {
+          "Title": "Dispositions Finales",
+          "Content": "Les présentes conditions générales de vente prévalent sur tout document du client et peuvent être modifiées uniquement par écrit et d'un commun accord entre les deux parties."
+        }
+      }
     
 }
