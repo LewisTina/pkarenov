@@ -16,7 +16,7 @@ export default function Chart() {
                                 {"Que vous envisagiez de redéfinir votre domicile ou de donner une nouvelle vie à un espace professionnel, notre équipe d'experts est prête à transformer vos rêves en réalité."}
                             </p>
                             <div className="flex md:flex-col md:items-center">
-                                <ChartElement title={"Déjà"} counter={"06"} description={"Années d’expériences"}/>
+                                <ChartElement title={"Déjà"} counter={"06"} description={"Années d’expérience"}/>
                                 <ChartElement title={"Plus de"} counter={"150"} description={"Chantiers terminés"}/>
                                 <ChartElement title={"Plus de"} counter={"50"} description={"Clients satisfaits"}/>
                             </div>

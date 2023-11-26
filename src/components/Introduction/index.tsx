@@ -14,7 +14,7 @@ export default function Introduction() {
                                     {"Expertise Exceptionnelle en Rénovation"}
                                 </h3>
                                 <p className="">
-                                    {"Avec PkaRenov, chaque projet est une occasion de créer quelque chose d'exceptionnel."}
+                                    {"Avec Pka Rénov, chaque projet est une occasion de créer quelque chose d'exceptionnel."}
                                 </p>
                             </div>
                         </div>
