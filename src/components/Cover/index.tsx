@@ -16,7 +16,7 @@ export default function Cover(props: any){
                 <span className=""></span>
                 <div className="text-center max-w-2xl text-primary dark:text-white">
                     <h1 className="block">
-                        Chez PkaRenov, la rénovation va bien au-delà de la simple amélioration esthétique.
+                        Chez Pka Rénov, la rénovation va bien au-delà de la simple amélioration esthétique.
                     </h1>
                     <h2 className="text-7xl lg:text-6xl md:text-5xl font-bold">
                         Transformez Votre Espace, Réalisez Vos Rêves

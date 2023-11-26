@@ -62,20 +62,20 @@
     "intellectual_property": "PKA Rénov est propriétaire unique de tous les droits de propriété intellectuelle ou détient les droits d'usage sur l'intégralité des éléments accessibles sur le site suivant, tant structurellement que sur les textes, images, graphismes, logo, bande sonore, logiciels etc… \n Toute reproduction même partielle du site suivant pkarenov.fr, affichage, edition, mis à jour totale ou partielle de l'un  de ces éléments, quel que soit le  moyen ou la technique utilisé, est interdite, excepté acceptation écrite préalable de PKA Rénov, directeur du site web même partielle du site pkarenov.fr, représentation, edition, adaptation totalement ou partiellement de l'un quelconque de ces éléments, peu importe le  moyen ou le procédé utilisé, est interdite, excepté acceptation  préalable de PKA Rénov, directeur du site web au mail suivant : contact@pkarenov.fr, sinon elle sera désigné de la même manière qu'une contrefaçon et passible de poursuite conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.",
     "intellectual_property_title":"Propriété intellectuelle",
     "accessibility":"Exigence d'accessibilité",
-    "cgv_title": "Condition Générales de ventes",
+    "cgv_title": "Conditions Générales de ventes",
 
     "CGV": {
         "Definitions": {
           "Title": "Définitions",
-          "Content": "Dans le cadre des présentes conditions générales de vente, les termes suivants auront les significations suivantes : \n - PKA Rénov | enregistrée sous le numéro de SIRET 847 942 877 00014 et dont le siège social est situé au 38 Rue anatole France, Saint-priest 69800. \n - Client | désigne toute personne physique ou morale faisant appel aux services de l'entreprise de rénovation. \n - Travaux | désigne les prestations de rénovation ou de construction effectuées par l'entreprise de rénovation pour le compte du client."
+          "Content": "Dans le cadre des présentes conditions générales de vente, les termes suivants auront les significations suivantes : \n - PKA Rénov | enregistrée sous le numéro de SIRET 847 942 877 00014 et dont le siège social est situé au 38 Rue anatole France, Saint-priest 69800. \n - Client | désigne toute personne physique ou morale faisant appel aux services de PKA Rénov. \n - Travaux | désigne les prestations de rénovation ou de construction effectuées par PKA Rénov pour le compte du client."
         },
         "Object": {
           "Title": "Objet",
-          "Content": "Les présentes conditions générales de vente définissent les conditions dans lesquelles l'entreprise de rénovation fournit ses services au client. Elles régissent les obligations et les droits des deux parties concernant la réalisation des travaux de rénovation."
+          "Content": "Les présentes conditions générales de vente définissent les conditions dans lesquelles PKA Rénov fournit ses services au client. Elles régissent les obligations et les droits des deux parties concernant la réalisation des travaux de rénovation."
         },
         "DevisCommandes": {
           "Title": "Devis et Commandes",
-          "Content": "Tout devis émis par l'entreprise de rénovation est valable pour une durée de 20 Mois. La passation d'une commande par le client implique son acceptation des tarifs, conditions et délais mentionnés dans le devis."
+          "Content": "Tout devis émis par PKA Rénov est valable pour une durée de 20 Mois. La passation d'une commande par le client implique son acceptation des tarifs, conditions et délais mentionnés dans le devis."
         },
         "ModalitesPaiement": {
           "Title": "Modalités de Paiement",
@@ -83,11 +83,11 @@
         },
         "RealisationTravaux": {
           "Title": "Réalisation des Travaux",
-          "Content": "L'entreprise de rénovation s'engage à réaliser les travaux conformément aux spécifications du devis et dans le respect des normes en vigueur. Tout changement ou ajout de travaux non prévu initialement dans le devis fera l'objet d'un avenant précisant les conditions financières et le délai supplémentaire éventuel."
+          "Content": "PKA Rénov s'engage à réaliser les travaux conformément aux spécifications du devis et dans le respect des normes en vigueur. Tout changement ou ajout de travaux non prévu initialement dans le devis fera l'objet d'un avenant précisant les conditions financières et le délai supplémentaire éventuel."
         },
         "ResponsabilitesGaranties": {
           "Title": "Responsabilités et Garanties",
-          "Content": "L'entreprise de rénovation garantit la conformité des travaux réalisés et s'engage à remédier à tout défaut constaté dans un délai raisonnable après réception des travaux, selon les termes convenus."
+          "Content": "PKA Rénov garantit la conformité des travaux réalisés et s'engage à remédier à tout défaut constaté dans un délai raisonnable après réception des travaux, selon les termes convenus."
         },
         "AnnulationResiliation": {
           "Title": "Annulation et Résiliation",
@@ -95,7 +95,7 @@
         },
         "ProtectionsDonnees": {
           "Title": "Protection des Données Personnelles",
-          "Content": "L'entreprise de rénovation s'engage à respecter la confidentialité des données personnelles fournies par le client et à les utiliser uniquement dans le cadre des travaux réalisés."
+          "Content": "PKA Rénov s'engage à respecter la confidentialité des données personnelles fournies par le client et à les utiliser uniquement dans le cadre des travaux réalisés."
         },
         "LitigesJuridiction": {
           "Title": "Litiges et Juridiction Applicable",

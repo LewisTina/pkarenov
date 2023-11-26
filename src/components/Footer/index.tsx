@@ -47,13 +47,13 @@ export default function Footer(props: {bgColor?: string}) {
 
                             <div className="my-5">
                                 <p className="flex leading-10 flex-wrap text-blue-gray font-normal">
-                                    <Link href={"mentions-legales"} className="mr-16">
+                                    <Link href={"fr/mentions-legales"} className="mr-16">
                                         Mentions Légales
                                     </Link>
-                                    <Link href={"confidentiality"} className="mr-16">
+                                    <Link href={"fr/confidentiality"} className="mr-16">
                                         Politique de confidentiaité
                                     </Link>
-                                    <Link href={"cgv"}>
+                                    <Link href={"fr/cgv"}>
                                         Conditions générales de ventes
                                     </Link>
                                 </p>

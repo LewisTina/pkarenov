@@ -67,15 +67,15 @@
     "CGV": {
         "Definitions": {
           "Title": "Definitions",
-          "Content": "In the context of these general conditions of sale, the following terms will have the following meanings: \n - PKA Rénov | registered under SIRET number 847 942 877 00014 and whose head office is located at 38 Rue anatole France, Saint-priest 69800. \n - Client | designates any natural or legal person using the services of the renovation company. \n - Works | designates the renovation or construction services carried out by the renovation company for the customer's account."
+          "Content": "In the context of these general conditions of sale, the following terms will have the following meanings: \n - PKA Rénov | registered under SIRET number 847 942 877 00014 and whose head office is located at 38 Rue anatole France, Saint-priest 69800. \n - Client | designates any natural or legal person using the services of PKA Rénov. \n - Works | designates the renovation or construction services carried out by PKA Rénov for the customer's account."
         },
         "Object": {
           "Title": "Purpose",
-          "Content": "These general terms and conditions define the conditions under which the renovation company provides its services to the client. They govern the obligations and rights of both parties regarding the realization of renovation works."
+          "Content": "These general terms and conditions define the conditions under which PKA Rénov provides its services to the client. They govern the obligations and rights of both parties regarding the realization of renovation works."
         },
         "DevisCommandes": {
           "Title": "Quotes and Orders",
-          "Content": "Any quote issued by the renovation company is valid for a period of 02 Mois. Placing an order by the client implies acceptance of the rates, conditions, and deadlines mentioned in the quote."
+          "Content": "Any quote issued by PKA Rénov is valid for a period of 02 Mois. Placing an order by the client implies acceptance of the rates, conditions, and deadlines mentioned in the quote."
         },
         "ModalitesPaiement": {
           "Title": "Payment Terms",
@@ -83,11 +83,11 @@
         },
         "RealisationTravaux": {
           "Title": "Execution of Works",
-          "Content": "The renovation company undertakes to carry out the works in accordance with the specifications in the quote and in compliance with the current standards. Any change or addition of works not initially planned in the quote will be the subject of an amendment specifying the financial conditions and any additional timeframe."
+          "Content": "PKA Rénov undertakes to carry out the works in accordance with the specifications in the quote and in compliance with the current standards. Any change or addition of works not initially planned in the quote will be the subject of an amendment specifying the financial conditions and any additional timeframe."
         },
         "ResponsabilitesGaranties": {
           "Title": "Responsibilities and Guarantees",
-          "Content": "The renovation company guarantees the conformity of the works carried out and undertakes to remedy any defect noted within a reasonable period after receipt of the works, as agreed."
+          "Content": "PKA Rénov guarantees the conformity of the works carried out and undertakes to remedy any defect noted within a reasonable period after receipt of the works, as agreed."
         },
         "AnnulationResiliation": {
           "Title": "Cancellation and Termination",
@@ -95,7 +95,7 @@
         },
         "ProtectionsDonnees": {
           "Title": "Personal Data Protection",
-          "Content": "The renovation company undertakes to respect the confidentiality of the personal data provided by the client and to use it only within the scope of the works carried out."
+          "Content": "PKA Rénov undertakes to respect the confidentiality of the personal data provided by the client and to use it only within the scope of the works carried out."
         },
         "LitigesJuridiction": {
           "Title": "Disputes and Applicable Jurisdiction",
