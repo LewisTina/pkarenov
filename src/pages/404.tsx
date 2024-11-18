@@ -32,19 +32,7 @@ const Content404 = () => {
 export default function Custom_404(props: any){
     return(
         <Layout title="404 - Page Introuvable - Pka Rénov">
-            <main className="fixed inset-0 flex flex-col items-center">
-                <Navbar/>
-                <Content404/>
-
-                <div className="w-64 md:w-32 h-auto relative bottom-4 pointer-events-none">
-                    <Image 
-                        width={100}
-                        height={100}
-                        className="h-auto w-full object-contain md:mb-5"
-                        src={"/destructured_circle_logo.svg"} 
-                        alt={"logo pka extend"}/>
-                </div>
-            </main>
+            <Content404/>
         </Layout>
     )
 }
