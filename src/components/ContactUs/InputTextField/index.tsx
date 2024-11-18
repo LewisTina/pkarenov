@@ -40,10 +40,10 @@ export default function InputTextField(props: formInput){
       }
 
 
-    const fileInputClass = `block text-sm text-slate-500 file:mr-4 mt-2 file:py-2 file:px-4 file:rounded-full file:cursor-pointer file:border-0 file:text-sm file:font-semibold file:bg-secondary/10 file:text-secondary hover:file:text-white hover:file:bg-secondary cursor-pointer border-none`
+    const fileInputClass = `block text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:cursor-pointer file:border-0 file:text-sm file:font-semibold file:bg-secondary/10 file:text-secondary hover:file:text-white hover:file:bg-secondary cursor-pointer border-none`
 
     return(
-        <div className={`my-2 md:mx-0 sm:max-w-none sm:pr-0 md:pr-4 md:max-w-full sm:w-full`}>
+        <div className={`sm:max-w-none md:max-w-full sm:w-full`}>
             <input
                     {...controller(name, {
                             required: isRequired ? true : false,

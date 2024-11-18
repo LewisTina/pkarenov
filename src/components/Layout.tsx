@@ -22,21 +22,21 @@ const Layout = (props: LayoutProps) => {
     return (
         <main className='Sf-pro'>
             <Head>
-                <title>{title ? title : "PKA Renov"}</title>
+                <title>{title ? title : "PKA Renov, l'entreprise de rénovation à lyon et périphériques"}</title>
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width,"/>
                 <meta property="og:image" content="https://www.pkarenov.fr/logo_pka.png"/>
                 <meta property="twitter:image" content="https://www.pkarenov.fr/logo_pka.png"/>
                 <meta name="google" content="notranslate"/>
                 <meta property="twitter:card" content="summary_large_image"/>
-                <meta property="twitter:title" content="PKA Renov"></meta>
+                <meta property="twitter:title" content="PKA Renov, l'entreprise de rénovation à lyon et périphériques"></meta>
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="PKA Renov" />
+                <meta property="og:title" content="PKA Renov, l'entreprise de rénovation à lyon et périphériques"/>
                 <meta property="og:url" content="https://www.pkarenov.fr/logo_pka.png"></meta>
                 <meta property="og:site_name" content="https://www.pkarenov.fr/logo_pka.png"></meta>
-                <meta property="og:description" content="Présentation de PKA Renov - entreprise de rénovation" />
-                <meta property="twitter:description" content="Présentation de PKA Renov - entreprise de rénovation"></meta>
-                <meta name="description" content="Présentation de PKA Renov - entreprise de rénovation" />
+                <meta property="og:description" content="Entreprise lyonnaise de rénovation infiniment professionnelle qui vous accompagne dans vos projets de rénovation, et ou de construction. Transformez vos rêves en réalité en faisant appel à une équipe qui fait de votre satisfaction sa priorité." />
+                <meta property="twitter:description" content="Entreprise lyonnaise de rénovation infiniment professionnelle qui vous accompagne dans vos projets de rénovation, et ou de construction. Transformez vos rêves en réalité en faisant appel à une équipe qui fait de votre satisfaction sa priorité."></meta>
+                <meta name="description" content="Entreprise lyonnaise de rénovation infiniment professionnelle qui vous accompagne dans vos projets de rénovation, et ou de construction. Transformez vos rêves en réalité en faisant appel à une équipe qui fait de votre satisfaction sa priorité." />
                 <meta name="keywords" content="pierrekevin - pierre - kevin - pierre-kevin - pierre kevin - pka - pkarenov  - pka renov - pka-renov  - renov -pkarénov  - pka rénov - pka-rénov  - rénov - rénovation - carrelage - plaquiste - carreleur - placo - sol - batiment - lyon"></meta> 
             </Head>
             <main className="min-h-screen w-full relative flex flex-col items-center overflow-x-hidden overflow-y-auto">

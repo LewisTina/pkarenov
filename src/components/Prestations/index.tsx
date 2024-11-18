@@ -32,14 +32,14 @@ export default function Prestations(){
                                         src={"/interieur-cuisine-moderne-aux-couleurs-vives.jpg"} 
                                         alt={"Cuisine intérieure moderne"}/>
                                 </div>
-                                <div className="bg-green h-[348px] md:h-auto md:w-full aspect-[1/0.76] rounded-xl my-2.5 flex relative overflow-hidden pointer-events-none">
+                                <div className="h-[348px] md:h-auto md:w-full aspect-[1/0.76] rounded-xl my-2.5 flex relative overflow-hidden pointer-events-none">
                                     <Image 
                                         fill
                                         className="object-cover object-bottom"
                                         src={"/amenagement-interieur-decoration-salle-bain-agreable-moderne.jpg"} 
                                         alt={"Cuisine intérieure moderne"}/>
                                 </div>
-                                <div className="bg-green h-[348px] md:h-auto md:w-full aspect-[1/0.76] rounded-xl my-2.5 md:ml-16 ml-24 flex relative overflow-hidden pointer-events-none">
+                                <div className="h-[348px] md:h-auto md:w-full aspect-[1/0.76] rounded-xl my-2.5 md:ml-16 ml-24 flex relative overflow-hidden pointer-events-none">
                                     <Image 
                                         fill
                                         className="object-cover object-bottom"

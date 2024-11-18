@@ -29,7 +29,7 @@ const ParallaxEffect = (props: { frame: HTMLElement }) => {
   return (
     
     <>
-      <div className="w-8/12 lg:w-full p-8 lg:px-0 flex justify-end md:justify-center items-start lg:items-center">
+      <div className="w-8/12 lg:w-full p-8 pb-0 lg:px-0 flex justify-end md:justify-center items-start lg:items-center">
           <div className="flex w-[640px] lg:w-[540px] md:w-4/5 shrink-0 px-2 md:px-1 pt-16 lg:pt-0">
               <div ref={a} className="w-full aspect-[1/1.076] rounded-xl flex relative overflow-hidden pointer-events-none">
                   <Image 

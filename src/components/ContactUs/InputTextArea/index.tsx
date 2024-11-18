@@ -21,7 +21,7 @@ export default function InputTextArea(props: formInput){
     } = props
 
     return(
-        <div className={`my-2 md:mx-0 sm:max-w-none sm:pr-0 md:pr-4 md:max-w-full sm:w-full`}>
+        <div className={`sm:max-w-none md:max-w-full sm:w-full`}>
             <textarea
                     {...controller(name, {
                             required: isRequired ? true : false,

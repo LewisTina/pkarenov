@@ -59,15 +59,6 @@ export default function Footer(props: {bgColor?: string}) {
                                 </p>
                             </div>
                         </div>
-
-                        <div className="w-64 min-w-[256px] ml-auto md:m-auto h-auto relative -bottom-4 pointer-events-none">
-                            <Image 
-                                width={100}
-                                height={100}
-                                className="h-auto w-full object-contain md:mb-5"
-                                src={"/destructured_circle_logo.svg"} 
-                                alt={"logo pka extend"}/>
-                        </div>
                     </div>
                 </div>
             </div> 

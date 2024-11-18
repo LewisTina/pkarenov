@@ -1,4 +1,3 @@
-import { useEffect, useRef, useState } from "react";
 import SectionLayout from "../SectionLayout";
 import ParallaxIntroduction from './ParallaxIntroduction'
 
