@@ -55,7 +55,6 @@ export default function ChartElement(props: ChartElementProps){
         if(isIn) {
             start()
         } else {
-          console.log('Hors du container');
         }
       })
 

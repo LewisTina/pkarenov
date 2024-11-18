@@ -2,6 +2,13 @@
 import Head from 'next/head'
 import Footer from './Footer';
 import Navbar from './NavBar';
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger)
+interface LayoutProps {
+    title?: string,
+    children: React.ReactNode;
+}
 
 interface LayoutProps {
     title?: string,

@@ -48,7 +48,7 @@ export default function App({ Component, pageProps }: AppProps) {
   )
   return (
     <ThemeProvider attribute="class">
-      <Preload />
+      {/* <Preload /> */}
       <Component {...pageProps} />
       <Analytics />
     </ThemeProvider>

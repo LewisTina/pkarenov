@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "@vercel/analytics": "^1.1.1",
     "babel": "^6.23.0",
     "bootstrap-icons": "^1.11.1",
     "fs": "^0.0.1-security",
+    "gsap": "^3.12.5",
     "handlebars": "^4.7.8",
     "js-cookie": "^3.0.5",
-    "next": "14.0.1",
+    "next": "^14.2.18",
     "next-themes": "^0.2.1",
     "next-translate": "^2.6.2",
     "next-translate-plugin": "^2.6.2",
@@ -24,7 +26,6 @@
     "react-countup": "^6.5.0",
     "react-dom": "^18",
     "react-hook-form": "^7.48.0",
-    "react-scroll-parallax": "^3.4.2",
     "sass": "^1.69.5",
     "scss": "^0.2.4"
   },
