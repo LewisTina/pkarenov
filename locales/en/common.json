@@ -11,9 +11,9 @@
     "system": "System Default",
     "since": "since",
     "this": "this",
-    "not_found": "Oops, Page Not Found",
+    "page_not_found": "Oops, Page Not Found",
 
-    "last_update": "DLast update, on {{date}}.",
+    "last_update": "Last update, on {{date}}.",
     "legal_mentions": "Legacy",
     "terms_and_services": "Terms and services",
     "privacy": "privacy",
@@ -28,7 +28,7 @@
     "terms_of_use_section_5": "Disclaimer",
     "terms_of_use_section_5_content": "This website is provided 'as is' without any warranties. PKA Rénov shall not be liable for any damages resulting from the use or inability to use this website.",
     "terms_of_use_section_6": "Changes to Terms",
-    "terms_of_use_section_6_content": "PKA Rénov reserves the right to modify these Terms of Use at any time. It is your responsibility to review these terms periodically for updates.",
+    "terms_of_use_section_6_content": "PKA Renov reserves the right to modify these Terms of Use at any time. It is your responsibility to review these terms periodically for updates.",
 
     "privacy_policy_title": "Privacy Policy",
     "privacy_policy_section_1": "Information Collected",
@@ -54,15 +54,14 @@
     "contact_developer": "Contact the Developer",
     "website_host": "Website host",
     "sas_info": "SAS with a capital of 500,000 Euros",
-    "trade_register": "Trade and Companies Register in french , 'Registre du commerce et des sociétés'",
+    "trade_register": "Trade and Companies Register in French, 'Registre du commerce et des sociétés'",
     "vat_number": "VAT Number",
-    "user_agreement-10": "Any internet user who connects and uses the website: www.pkarenov.fr is considered a user of the website. The website www.pkarenov.fr offers various services, as is, made available to users. It is naturally specified that users must remain honest and act in good faith towards other users and the Creator of the pkarenov.fr website. The pkarenov.fr website is regularly updated by PKA Rénov. PKA Rénov strives to provide the most accurate information on the pkarenov.fr website about is activities, but cannot guarantee the accuracy, completeness, and information transmitted on its website, whether by its own actions or those of third-party partners who provide this information. Consequently, the user acknowledges that they use the information provided under their sole responsibility.",
+    "user_agreement-10": "Any internet user who connects and uses the website: www.pkarenov.fr is considered a user of the website. The website www.pkarenov.fr offers various services, as is, made available to users. It is naturally specified that users must remain honest and act in good faith towards other users and the Creator of the pkarenov.fr website. The pkarenov.fr website is regularly updated by PKA Rénov. PKA Rénov strives to provide the most accurate information on the pkarenov.fr website about its activities, but cannot guarantee the accuracy, completeness, and information transmitted on its website, whether by its own actions or those of third-party partners who provide this information. Consequently, the user acknowledges that they use the information provided under their sole responsibility.",
     "user_agreement": "The pkarenov.fr website is generally accessible to users 24/7, except in the event of planned or unplanned interruptions for maintenance or force majeure. In the event of unavailability of the service, pkarenov.fr will do its utmost to restore access to the site and will attempt to communicate the dates and times of the intervention to users in advance. Being subject only to a means obligation, pkarenov.fr cannot be held responsible for any damage, of any nature whatsoever, resulting from unavailability of the service.",
-    "site_accessibility": "The pkarenov.fr website is generally accessible to users 24/7, except in the event of planned or unplanned interruptions for maintenance or force majeure. In the event of unavailability of the service, pkarenov.fr will do its utmost to restore access to the site and will attempt to communicate the dates and times of the intervention to users in advance. Being subject only to a means obligation, pkarenov.fr cannot be held responsible for any damage, of any nature whatsoever, resulting from unavailability of the service.",
     "intellectual_property": "PKA Rénov is the sole owner of all intellectual property rights or holds usage rights for all elements accessible on the following site, both structurally and in terms of texts, images, graphics, logos, soundtracks, software, etc. Any reproduction, even partial, of the pkarenov.fr website, display, editing, total or partial updating of any of these elements, by any means or technique, is prohibited, except with the prior written consent of PKA Rénov, the website's director. Representation, editing, adaptation, in whole or in part, of any of these elements, regardless of the means or process used, is prohibited, except with the prior consent of PKA Rénov, the website's director, at the following email address: contact@pkarenov.fr, otherwise it will be treated as counterfeiting and subject to prosecution in accordance with the provisions of Articles L.335-2 and following of the Intellectual Property Code.",
-    "intellectual_property_title":"Intellectual property",
+    "intellectual_property_title":"Intellectual Property",
     "accessibility":"Accessibility",
-    "cgv_title": "General sale conditions",
+    "cgv_title": "General Sale Conditions",
 
     "CGV": {
         "Definitions": {
@@ -105,7 +104,5 @@
           "Title": "Final Provisions",
           "Content": "These general terms and conditions of sale prevail over any document from the client and can be modified only in writing and by mutual agreement between the two parties."
         }
-      }
-
-
+    }
 }
