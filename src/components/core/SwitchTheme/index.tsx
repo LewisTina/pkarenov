@@ -8,7 +8,7 @@ export default function SwitchTheme(props: {id: string}) {
   const {id} = props
     
   const { theme, setTheme } = useTheme();
-  const {t} = useTranslation("common")
+  const { t } = useTranslation("common")
   const [isOpen, setIsOpen] = useState(false)
   const [activeTheme, setActiveTheme] = useState<string | undefined>(undefined)
   const handleChange = (value:'light' | 'dark' | 'system') => {

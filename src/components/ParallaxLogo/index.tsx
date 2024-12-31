@@ -26,7 +26,6 @@ export default function ParallaxLogoAnimation(props: { frame: HTMLElement }) {
             start: "30%",
             end: "bottom bottom",
             scrub: 1,
-            markers: true
         }
   
         const tl = gsap.timeline({ scrollTrigger });

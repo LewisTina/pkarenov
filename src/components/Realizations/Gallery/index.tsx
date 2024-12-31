@@ -1,33 +1,32 @@
-import React, { useState } from 'react';
 import Image from "next/image"
-import style from './index.module.scss'
+import styles from './index.module.scss'
+import Link from "next/link";
 
-function Gallery(props: {folder: string}) {
-    const { folder } = props
-    const images = require.context(`../../../../public/belleville`, true);
-    const imageList = images.keys().map((image: any) => images(image));
-    const [isOpen, setIsOpen] = useState(false)
+function Gallery(props: {folder: __WebpackModuleApi.RequireContext, projectId: string}) {
+  const { folder, projectId } = props
+  const imageList = folder.keys().map((image: any) => folder(image));
 
   return (
-    <div 
-        className={`py-10  ${isOpen ? style.galleryOpen : style.galleryClose}`}>
-                <span className="transition-all relative flex h-10 w-10 z-50 cursor-pointer pointer-events-auto" onClick={() => {setIsOpen(!isOpen)}}>
-                    <span className="animate-ping duration-1000 absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-10 w-10 bg-secondary/50"></span>
-                </span>
+    <Link href={"/showroom/" + projectId} className={`cursor-pointer pointer-events-auto my-16 ${styles.galleryClose}`}>
         {
             imageList.slice(0, 3).map((image: any, index: number) => (
-                <div className="transition-all aspect-[1/1.33] mt-4 md:mt-2 rounded-xl flex overflow-hidden pointer-events-none shrink-0" key={index}>
+              <div className="transition-all flex pointer-events-none select-none" key={index}>
                   <Image 
-                      fill
-                      className="object-cover object-bottom"
+                      className=""
                       src={image.default}
+                      height={500}
+                      width={500}
                       quality={75}
-                      alt={"Cuisine intérieure moderne"}/>
+                      alt={`image projet ${index}`}/>
               </div>
             ))
         }
-    </div>
+        <span className="transition-all relative flex h-5 w-5 z-50">
+            <span className="animate-ping duration-1000 absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-5 w-5 bg-secondary">
+            </span>
+        </span>
+    </Link>
   );
 }
 

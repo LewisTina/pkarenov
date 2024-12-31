@@ -1,8 +1,8 @@
+import { useEffect, useRef, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import InputTextField from './InputTextField'
 import Image from 'next/image'
 import InputTextArea from './InputTextArea';
-import { useEffect, useRef, useState } from 'react';
 import useTranslation from 'next-translate/useTranslation';
 import CustomButton from '../Button';
 import SectionLayout from '../SectionLayout';
@@ -38,7 +38,7 @@ function Alert(props: any){
 export default function ContactUs(props: any) {
     const { register, setValue,  handleSubmit, formState: {errors} } = useForm();
     const [status, setStatus] = useState<any>(undefined)
-    const {t} = useTranslation('common')
+    const { t } = useTranslation('common')
     const [isFetching, setIsFetching] = useState(false)
     const [isFinish, setIsFinish] = useState(true)
     const [frame, setFrame] = useState<HTMLElement | null>(null)

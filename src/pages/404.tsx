@@ -1,12 +1,10 @@
 import Layout from "@/components/Layout";
-import Navbar from "@/components/NavBar";
 import useTranslation from "next-translate/useTranslation";
-import Image from "next/image"
 
 const Content404 = () => {
-    const {t} = useTranslation('common')
+    const { t } = useTranslation('common')
     return(
-        <div className="w-screen h-screen flex justify-center items-center">
+        <div className="w-screen h-screen flex justify-center items-center border-b border-black/10 dark:border-gray/10">
             <div className="">
                 <div className="flex flex-col items-center">
                     <div className="flex items-center">

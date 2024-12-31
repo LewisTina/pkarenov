@@ -1,4 +1,3 @@
-import Image from "next/image"
 import CustomButton from "../Button";
 import Link from "next/link";
 

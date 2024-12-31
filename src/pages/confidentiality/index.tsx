@@ -6,7 +6,7 @@ import useTranslation from "next-translate/useTranslation";
 import { DM_Sans } from 'next/font/google'
 
 export default function CGU(props: any) {
-    const {t} = useTranslation('common')
+    const { t } = useTranslation('common')
     return(
         <Layout title={`${t('legal_mentions')} - Lewis TINA`} footerBgColor="bg-light-gray dark:bg-black">
                 <div className="w-full flex justify-center text-blue-gray dark:text-gray">

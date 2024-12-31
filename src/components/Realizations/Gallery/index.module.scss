@@ -1,69 +1,42 @@
+.gallery {
+    all: unset;
+}
+
 .galleryClose {
     position: relative;
-    display: grid;
+    display: flex;
     width: 50%;
-    aspect-ratio: 9/14;
+    aspect-ratio: 9/11;
     align-items: flex-start;
 
-    div {
-        position: relative;
-        width: 58%;
-        box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.15);
+    &>span {
+        margin: auto;
     }
 
-    div:nth-child(2) {
+    div {
+        position: absolute;
+        width: 58%;
+
+        img {
+            box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.15);
+            @apply rounded-xl object-cover object-bottom overflow-hidden;
+        }
+    }
+
+    div:nth-child(1) {
         top: 0;
         left: 0;
     }
 
-    div:nth-child(3) {
-        top: 15%;
+    div:nth-child(2) {
+        bottom: 0%;
         left: 15%;
     }
 
-    div:nth-child(4) {
-        top: -160%;
-        left: 42.5%;
+    div:nth-child(3) {
+        top: 10%;
+        right: 0%;
     }
-}
-
-.galleryClose > span {
-    align-self: center;
-    justify-items: center;
-    justify-self: center;
-    justify-content: center;
-    position: absolute;
-}
-
-.galleryOpen {
-    position: fixed;
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    max-width: 100vw;
-    inset: 0;
-    z-index: 999;
-    backdrop-filter: blur(80px);
-    align-items: center;
-    overflow: auto;
-
-    div {
-        position: relative;
-        width: 40%;
-        border-radius: 0;
-        margin: 0 2rem 0 0
-    }
-
-}
-
-.galleryOpen > span {
-    position: sticky;
-    top: 0rem;
-    left: 2rem;
-    align-self: flex-start;
-    justify-content: flex-end;
-    right: 0;
-
 }
 
 @media screen and (max-width: 639px) {

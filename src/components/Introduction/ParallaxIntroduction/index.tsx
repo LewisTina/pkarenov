@@ -1,5 +1,5 @@
 import { useGSAP } from '@gsap/react'
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 import gsap from 'gsap';
 import Image from "next/image"
 

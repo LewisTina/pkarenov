@@ -4,7 +4,9 @@ import Footer from './Footer';
 import Navbar from './NavBar';
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger)
+import { ScrollToPlugin } from 'gsap/dist/ScrollToPlugin';
+import { useGSAP } from '@gsap/react';
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin, useGSAP);
 interface LayoutProps {
     title?: string,
     children: React.ReactNode;
@@ -39,7 +41,7 @@ const Layout = (props: LayoutProps) => {
                 <meta name="description" content="Entreprise lyonnaise de rénovation infiniment professionnelle qui vous accompagne dans vos projets de rénovation, et ou de construction. Transformez vos rêves en réalité en faisant appel à une équipe qui fait de votre satisfaction sa priorité." />
                 <meta name="keywords" content="pierrekevin - pierre - kevin - pierre-kevin - pierre kevin - pka - pkarenov  - pka renov - pka-renov  - renov -pkarénov  - pka rénov - pka-rénov  - rénov - rénovation - carrelage - plaquiste - carreleur - placo - sol - batiment - lyon"></meta> 
             </Head>
-            <main className="min-h-screen w-full relative flex flex-col items-center overflow-x-hidden overflow-y-auto">
+            <main className="min-h-screen w-full relative flex flex-col items-center">
                 <Navbar/>
                     {children}
                 <Footer bgColor={footerBgColor}/>

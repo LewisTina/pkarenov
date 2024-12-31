@@ -1,0 +1,12 @@
+.coloredTitle {
+    --gradient: 230deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 1), rgba(255, 255, 255, .1);
+
+    background: linear-gradient(var(--gradient));
+    background: -webkit-linear-gradient(var(--gradient));
+    background-size: 200%;
+    background-position: 0%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+}

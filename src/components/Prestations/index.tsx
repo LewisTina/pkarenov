@@ -1,19 +1,38 @@
+import { useGSAP } from '@gsap/react'
+import { useRef } from 'react'
+import gsap from 'gsap';
 import BlockListing from "../BlockListing";
 import SectionLayout from "../SectionLayout";
 import Image from "next/image"
+import styles from './prestations.module.scss'
 
 export default function Prestations(){
+    const frameRef = useRef<HTMLElement>(null)
+    const textRef = useRef<HTMLHeadingElement>(null)
+    useGSAP(() => {
+        gsap.to(textRef.current, {
+            backgroundPosition: "100%",
+            scrollTrigger: {
+                trigger: frameRef.current,
+                start: "-20%",  //
+                end: "top top",
+                scrub: 2,
+            }
+
+        });
+    })
+
     return(
-        <SectionLayout id={"whatWeDo"} bgColor="bg-black">
+        <SectionLayout id={"whatWeDo"} bgColor="bg-black" customRef={frameRef}>
             <div className="w-full flex justify-center text-gray overflow-x-visible">
                 <div className="w-full flex justify-center py-24 lg:px-10 md:px-4 overflow-x-visible">
                     <div className="max-w-[986px] w-full flex flex-col">
-                        <h2 className="text-9xl lg:text-8xl md:text-7xl leading-[0.85] lg:leading-[0.85] md:leading-[0.85] my-3 w-8/12 md:w-full text-white coolvetica whitespace-pre-line">
+                        <h2 ref={textRef} className={`${styles.coloredTitle} text-9xl lg:text-8xl md:text-7xl leading-[0.85] lg:leading-[0.85] md:leading-[0.85] my-3 w-8/12 md:w-full text-white coolvetica whitespace-pre-line`}>
                             {"Rénovation de \n bout-en-bout"}
                         </h2>
                         <div className="w-full flex items-center md:flex-col">
                             <div className="w-9/12 md:w-full lg:w-7/12">
-                                <p className="text-3xl lg:text-xl md:text-base my-3 w-10/12 lg:w-full">
+                                <p className="text-2xl lg:text-xl md:text-base text-blue-gray my-3 w-10/12 lg:w-full">
                                     {"De l’ossature au revêtement, de la conception aux dernières finissions, entrez dans un monde où l'innovation architecturale rencontre un artisanat impeccable, où votre vision prend vie, pièce par pièce."}
                                 </p>
                                 <div className="flex flex-wrap my-8">

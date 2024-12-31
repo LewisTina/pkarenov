@@ -69,6 +69,8 @@ html{
 
 body{
   transition: background 0.3s;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 input::-webkit-outer-spin-button,
@@ -81,26 +83,6 @@ input::-webkit-inner-spin-button {
 .word-spacing{
   word-spacing:-2px;
 }
-
-  /* custom scrollbar */
-  ::-webkit-scrollbar {
-    width: 16px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #C4C4C4;
-    border-radius: 20px;
-    border: 5px solid transparent;
-    background-clip: content-box;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #8A8A8A;
-  }
 
   @layer base{
     body {
@@ -123,6 +105,12 @@ input::-webkit-inner-spin-button {
   100% {
     transform: translatey(0px) rotate(0deg);
   }
+}
+
+.gradient_mask {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to top,#000000 75%, rgba(29, 29, 29, 0) 95%);
+  mask-image: linear-gradient(to top,#000000 75%, rgba(29, 29, 29, 0) 95%);
 }
 
 
